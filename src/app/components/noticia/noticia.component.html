@@ -1,0 +1,10 @@
+<article *ngIf="noticia" class="noticia">
+  <h2 class="noticia-titulo">{{ noticia.titulo }}</h2>
+  <p class="noticia-date">{{ noticia.fechaPublicacion | date: "M/d/yy" }}</p>
+  <p class="noticia-likes">
+    {{ noticia.likes }}
+    <button type="button" mat-icon-button (click)="handlerLike()">
+      <mat-icon color="primary"> thumb_up_alt </mat-icon>
+    </button>
+  </p>
+</article>

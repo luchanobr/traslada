@@ -1,0 +1,20 @@
+.noticia {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, min-content);
+  gap: 0 2rem;
+  padding-block: 1rem;
+}
+.noticia-titulo {
+  grid-area: 1/1/1/1;
+  margin: 0;
+}
+.noticia-date {
+  grid-area: 2/1/-1/1;
+  margin: 0;
+}
+.noticia-likes {
+  grid-area: 1/1/-1/-1;
+  justify-self: end;
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding-inline: 1.5rem;
+  height: 65px;
+}
+
+.titulo {
+  flex-grow: 1;
+  margin: 0;
+}
